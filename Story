@@ -1,0 +1,30 @@
+My project is IOT based Fire Alarm.Generally when there is fire accident many people lose their lives, to solve this problem we can use fire alarm based on Internet of Things.This project helps us to get message whenever fire is detected in the room, we'll get a notification from Twilio messaging API to our mobile using Bolt IOT module.In this project I have used flame sensor which detects the IR rays present in the flame.I used bolt module to control LED and buzzer.When the fire is detected in the room the bolt module receives the sensor value and it request Twilio messaging API to send the message to our mobile saying "Emergency!Flame detected in the room", and also the LED glows and the buzzer beeps so that we can alert people and we can save many lives.
+
+To make this project you need:
+1. Bolt IOT module
+
+2. Flame Sensor
+
+3. Breadboard
+
+4. Jumper wires
+
+5. LED
+
+6. Buzzer
+
+Hardware Connection:
+To connect the hardware components you need to follow these steps:
+
+BOLT MODULE TO OTHER DEVICES:
+
+digital 1 -----> Flame Sensor(DO)
+
+digital 3 -----> buzzer +ve
+
+digital 4 -----> LED +ve
+
+5v -----> Flame Sensor(VCC)
+
+GND -----> Flame Sensor(GND), LED -ve, buzzer -ve
+
